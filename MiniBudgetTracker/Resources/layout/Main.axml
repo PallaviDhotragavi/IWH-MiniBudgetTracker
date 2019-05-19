@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TableLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tableLayout1">
+		<TableRow
+			android:id="@+id/tableRow1">
+			
+			<TextView
+				android:text="By Hackthon Challangers"
+				android:layout_column="1"
+				android:id="@+id/textView10"
+				android:textSize="@dimen/abc_action_bar_content_inset_material" />
+			
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow1">
+			
+			<TextView
+				android:text="Zensar India Ltd, Bangalore"
+				android:layout_column="1"
+				android:id="@+id/textView10"
+				android:layout_height="match_parent"
+				android:textStyle="bold"
+			android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+			
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow1">
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="2px"
+				android:minHeight="3px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView1" />
+			<TextView
+				android:layout_column="1"
+				android:id="@+id/textView10"
+				android:layout_height="match_parent"
+				android:textStyle="bold"
+			android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"/>
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView3" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:text="   From Message"
+				android:layout_column="0"
+				android:id="@+id/textView11" />
+		
+			<EditText
+				android:text=""
+				android:layout_column="0"
+				android:id="@+id/FromText" />
+		
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				
+				android:layout_column="0"
+				android:id="@+id/textView11" />
+		
+			<TextView
+				
+				android:layout_column="0"
+				android:id="@+id/textView11" />
+		
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow3">
+			<TextView
+				android:text="   Search BalanceAfter this Text"
+				android:layout_column="0"
+				android:id="@+id/textView12" />
+		
+		
+		</TableRow>
+		
+			<TableRow
+			android:id="@+id/tableRow3">
+		
+			
+			<EditText
+				android:text="  Avbl Bal: Rs."
+				android:layout_column="0"
+				android:id="@+id/AvblBal" 			
+			/>
+			
+		</TableRow>
+			<TableRow
+			android:id="@+id/tableRow3">
+			<TextView
+				android:text="   How many days? "
+				android:layout_column="0"
+				android:id="@+id/textView12" />
+			<EditText
+				android:text="2"
+				android:layout_column="0"
+				android:id="@+id/noDays" />
+		
+		</TableRow>
+		
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				
+				android:layout_column="0"
+				android:id="@+id/textView11" />
+		
+			<TextView
+				
+				android:layout_column="0"
+				android:id="@+id/textView11" />
+		
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:layout_column="0"
+				android:id="@+id/textView11" />
+			<TextView
+				android:text="Notification Dates"
+				android:layout_column="1"
+				android:id="@+id/textView13" />
+		
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:text="        Date"
+				android:layout_column="0"
+				android:id="@+id/textView14" />
+			<TextView
+				android:text="Expected Balance"
+				android:layout_column="1"
+				android:id="@+id/textView15" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:text="    7-5-2019"
+				android:layout_column="0"
+				android:id="@+id/first" />
+			<EditText
+				android:text="30000"
+				android:layout_column="1"
+				android:id="@+id/FirstAmt" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:text="    14-5-2019"
+				android:layout_column="0"
+				android:id="@+id/second" />
+			<EditText
+				android:text="15000"
+				android:layout_column="1"
+				android:id="@+id/SecondAmt" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:text="    21-5-2019"
+				android:layout_column="0"
+				android:id="@+id/third" />
+			<EditText
+				android:text="10000"
+				android:layout_column="1"
+				android:id="@+id/ThirdAmt" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:text="    28-5-2019"
+				android:layout_column="0"
+				android:id="@+id/fourth" />
+			<EditText
+				android:text="5000"
+				android:layout_column="1"
+				android:id="@+id/FourthAmt" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<Button
+				android:text="Save"
+				android:layout_column="1"
+				android:id="@+id/saveButton"
+				android:layout_height="38.5dp" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+	
+			
+		</TableRow>
+	</TableLayout>
+	
+</RelativeLayout>
+
